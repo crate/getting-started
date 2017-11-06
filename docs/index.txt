@@ -1,0 +1,31 @@
+============================
+Getting Started With CrateDB
+============================
+
+CrateDB is a distributed SQL database that makes it simple to store and analyze
+massive amounts of machine data in real-time.
+
+.. NOTE::
+
+   This is beginner documentation.
+
+   Check out the `CrateDB Reference`_ for low-level documentation, including
+   release notes, configuration, syntax reference, and so on.
+
+   Check out the `CrateDB Guide`_ for high-level documentation, including
+   overviews, best practices, and tutorials.
+
+.. rubric:: Table of Contents
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   install/index
+   connect/index
+   import/index
+   clients/index
+   scale/index
+
+.. _CrateDB Reference: https://crate.io/docs/crate/reference/en/latest/
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
