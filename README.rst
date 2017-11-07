@@ -36,7 +36,7 @@ Looking for more help?
 .. |build-status| image:: https://img.shields.io/travis/crate/getting-started.svg?style=flat
     :alt: build status
     :scale: 100%
-    :target: https://travis-ci.org/crate/guide
+    :target: https://travis-ci.org/crate/etting-started
 
 .. |docs| image:: https://readthedocs.org/projects/crate-getting-started/badge/?version=latest
     :alt: Documentation Status
