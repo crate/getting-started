@@ -1,4 +1,4 @@
-from crate.theme.rtd.conf.crate_guide import *
+from crate.theme.rtd.conf.crate_getting_started import *
 
 exclude_patterns = ["out/**"]
 
