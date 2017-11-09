@@ -1,33 +1,111 @@
-======================
-Crash, The CrateDB CLI
-======================
+.. highlight:: sh
 
-Crash is CrateDB's shell for interacting with clusters.
+========================
+Crash, The CrateDB Shell
+========================
 
-The Crash shell can be used from within a node that is part of a cluster or on
-another machine to connect to a remote cluster.
+`Crash`_ is a shell for interacting with CrateDB.
 
-To launch Crash:
+To launch Crash, run:
 
-.. code-block:: sh
+::
 
-    ./bin/crash
+    sh$ ./bin/crash
 
-Your command prompt will then switch to a ``cr>`` prompt. Connect to a cluster
-using the URL and the CrateDB port (*4200*):
+.. NOTE::
 
-.. code-block:: sh
+   If you prefer a browser-based experience, you can run these same commands
+   from the *Console* tab in the `the CrateDB admin UI`_.
+
+.. highlight:: psql
+
+First let's connect to a running node::
 
     cr> \connect 127.0.0.1:4200;
+    +------------------------+-----------+---------+-----------+---------+
+    | server_url             | node_name | version | connected | message |
+    +------------------------+-----------+---------+-----------+---------+
+    | http://127.0.0.1:...   | crate     | ...     | TRUE      | OK      |
+    +------------------------+-----------+---------+-----------+---------+
 
-You can then use Crash to issue SQL queries and other commands.
+Let's say we want to create a database for Twitter_ tweets.
+
+We can start by creating the ``tweets`` table::
+
+    cr> CREATE TABLE tweets (
+    ...   created_at timestamp,
+    ...   id string primary key,
+    ...   retweeted boolean,
+    ...   source string INDEX using fulltext,
+    ...   text string INDEX using fulltext,
+    ...   user_id string
+    ... );
+    CREATE OK, 1 row affected (... sec)
+
+Now we are ready to insert our first tweet::
+
+    cr> INSERT INTO tweets
+    ...      VALUES (
+    ...        1394182937,
+    ...        '1',
+    ...        true,
+    ...        'web',
+    ...        'Don''t panic',
+    ...        'Douglas'
+    ...      );
+    INSERT OK, 1 row affected (... sec)
+
+And another::
+
+    cr> INSERT INTO tweets
+    ...      VALUES (
+    ...        1394182938,
+    ...        '2',
+    ...        true,
+    ...        'web',
+    ...        'Time is an illusion. Lunchtime doubly so',
+    ...        'Ford'
+    ...      );
+    INSERT OK, 1 row affected (... sec)
+
+To query the inserted tweets, a ``SELECT`` statement can be used.
+
+If we only wanted Ford's tweets, we could run::
+
+    cr> SELECT * FROM tweets WHERE id = '2';
+    +------------+----+-----------+--------+-------------------------...-+---------+
+    | created_at | id | retweeted | source | text                        | user_id |
+    +------------+----+-----------+--------+-------------------------...-+---------+
+    | 1394182938 | 2  | TRUE      | web    | Time is an illusion. Lun... | Ford    |
+    +------------+----+-----------+--------+-------------------------...-+---------+
+    SELECT 1 row in set (... sec)
 
 .. SEEALSO::
 
-   `Crash reference documentation <https://crate.io/docs/reference/crash/>`_
+   `Data Definition
+   <https://crate.io/docs/crate/reference/sql/ddl/index.html>`_ - To see what
+   options the create table statement supports and to learn more about sharding
+   and replication.
+
+   `Data Manipulation <https://crate.io/docs/crate/reference/sql/dml.html>`_ -
+   In order to learn how to import, export, insert, update or delete records.
+
+   `Querying CrateDB <https://crate.io/docs/crate/reference/sql/dql.html>`_ -
+   Filtering, ordering, grouping and powerful fulltext search. Learn how to
+   find your data.
+
+   `Configuration <https://crate.io/docs/crate/reference/configuration.html>`_
+   - After you're done trying out CrateDB and before you go into production you
+   should take a look at this section. Especially the `CRATE_HEAP_SIZE`
+   environment variable is very important!
 
 .. rubric:: Next Steps
 
 - :doc:`Import Data <../import/index>`
 - :doc:`Client Libraries <../clients/index>`
 - :doc:`Scale <../scale/index>`
+
+.. _Crash: https://crate.io/docs/clients/crash/en/latest/
+.. _the CrateDB admin UI: https://crate.io/docs/connect/admin_ui/
+.. _SQL: https://en.wikipedia.org/wiki/SQL
+.. _Twitter: https://twitter.com
