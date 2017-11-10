@@ -6,8 +6,8 @@ Kubernetes is an open-source system for automating deployment, scaling, and
 management of containerized applications that builds on 15 years of experience
 running production workflows at Google.
 
-Thanks to :doc:`our Docker image <../install/containers/docker>`, managing your
-CrateDB cluster with Kubernetes requires only a few steps.
+Thanks to :doc:`our Docker image <../install/docker>`, managing your CrateDB
+cluster with Kubernetes requires only a few steps.
 
 This guide will assume that you already have `kubectl
 <http://kubernetes.io/docs/user-guide/prereqs/>`_ and a `Kubernetes cluster
