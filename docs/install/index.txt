@@ -5,8 +5,10 @@ Install
 .. rubric:: Table of Contents
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   local/index
-   containers/index
-   cloud/index
+   linux
+   mac
+   windows
+   docker
+   tarball

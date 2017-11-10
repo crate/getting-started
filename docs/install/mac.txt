@@ -1,6 +1,11 @@
-===========================
-Install CrateDB on Mac OS X
-===========================
+==================================
+Install CrateDB on Mac OS |nbsp| X
+==================================
+
+.. prevent widowed "x" in sidebar nav
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
 
 You can install and run CrateDB on a Mac with one simple command in your
 terminal application:
@@ -18,3 +23,4 @@ that will discover each when running on the same machine.
 - :doc:`Import Data <../../import/index>`
 - :doc:`Client Libraries <../../clients/index>`
 - :doc:`Scale <../../scale/index>`
+
