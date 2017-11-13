@@ -25,7 +25,6 @@ massive amounts of machine data in real-time.
    connect/index
    import/index
    clients/index
-   scale/index
 
 .. _CrateDB Reference: https://crate.io/docs/crate/reference/en/latest/
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
