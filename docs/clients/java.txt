@@ -100,7 +100,3 @@ Want to Know More?
 
 - More detailed documentation on the CrateDB Java client is available `here
   <https://crate.io/docs/reference/java>`_.
-
-.. rubric:: Next Steps
-
-- :doc:`Scale <../scale/index>`

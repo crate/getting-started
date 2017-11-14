@@ -39,4 +39,3 @@ multiple times.
 - :doc:`Connect <../../connect/index>`
 - :doc:`Import Data <../../import/index>`
 - :doc:`Client Libraries <../../clients/index>`
-- :doc:`Scale <../../scale/index>`

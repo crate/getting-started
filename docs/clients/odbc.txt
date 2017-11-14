@@ -174,7 +174,3 @@ Want to Know More?
 
 `Contact us </contact>`_ for further information, or read more about the
 `CrateDB enterprise offering <https://crate.io/enterprise/odbc>`_.
-
-.. rubric:: Next Steps
-
-- :doc:`Scale <../scale/index>`

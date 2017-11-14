@@ -65,7 +65,3 @@ Perl
 
 Mamod Mehyar created `DBD::Crate <https://github.com/mamod/DBD-Crate>`_, a
 DBI/Perl driver for CrateDB.
-
-.. rubric:: Next Steps
-
-- :doc:`Scale <../scale/index>`

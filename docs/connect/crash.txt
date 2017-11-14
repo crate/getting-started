@@ -103,7 +103,6 @@ If we only wanted Ford's tweets, we could run::
 
 - :doc:`Import Data <../import/index>`
 - :doc:`Client Libraries <../clients/index>`
-- :doc:`Scale <../scale/index>`
 
 .. _Crash: https://crate.io/docs/clients/crash/en/latest/
 .. _the CrateDB admin UI: https://crate.io/docs/connect/admin_ui/

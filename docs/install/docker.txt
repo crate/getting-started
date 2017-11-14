@@ -122,12 +122,12 @@ CrateDB works with any Docker instances created with the `Machine
 <https://docs.docker.com/machine/>`_ tool. Combined with Docker's cluster tool,
 `Swarm <https://www.docker.com/docker-swarm>`_, CrateDB becomes a powerful
 companion to Docker. Setting up CrateDB as part of a Docker Swarm is a little
-more complicated, but we have :doc:`a guide <../../scale/docker_swarm>` to get
-you started.
+more complicated, but we have `a guide`_ to get you started.
+
+.. _a guide: https://crate.io/docs/crate/guide/en/latest/scale/docker_swarm.html
 
 .. rubric:: Next Steps
 
 - :doc:`Connect <../../connect/index>`
 - :doc:`Import Data <../../import/index>`
 - :doc:`Client Libraries <../../clients/index>`
-- :doc:`Scale <../../scale/index>`
