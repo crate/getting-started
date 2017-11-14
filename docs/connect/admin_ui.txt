@@ -92,4 +92,3 @@ timeline for a data set to experiment with.
 
 - :doc:`Import Data <../import/index>`
 - :doc:`Client Libraries <../clients/index>`
-- :doc:`Scale <../scale/index>`

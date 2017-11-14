@@ -59,7 +59,3 @@ Want to Know More?
   <https://github.com/crate/crate-sample-apps/tree/master/erlang>`_ with an
   explanation of how the library is used `here
   <https://github.com/crate/crate-sample-apps/blob/master/erlang/README.md>`__.
-
-.. rubric:: Next Steps
-
-- :doc:`Scale <../scale/index>`

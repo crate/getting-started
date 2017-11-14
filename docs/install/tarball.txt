@@ -38,7 +38,6 @@ Nightly builds of CrateDB are provided for testing purposes only. You can
 - :doc:`Connect <../../connect/index>`
 - :doc:`Import Data <../../import/index>`
 - :doc:`Client Libraries <../../clients/index>`
-- :doc:`Scale <../../scale/index>`
 
 .. _Download latest stable release: https://crate.io/download/
 .. _Browse all releases: https://cdn.crate.io/downloads/releases/

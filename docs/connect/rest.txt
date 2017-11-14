@@ -19,4 +19,3 @@ Will connect to a cluster and return basic information about the cluster.
 
 - :doc:`Import Data <../import/index>`
 - :doc:`Client Libraries <../clients/index>`
-- :doc:`Scale <../scale/index>`
