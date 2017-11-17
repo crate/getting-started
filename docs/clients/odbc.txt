@@ -4,7 +4,7 @@ CrateDB and ODBC
 
 .. NOTE::
 
-   The ODBC driver only available if you are using the `Enterprise Edition
+   The ODBC driver is only available if you are using the `Enterprise Edition
    <https://crate.io/enterprise-edition/>`_ of CrateDB.
 
    `Contact us </contact>`_ for further information.
