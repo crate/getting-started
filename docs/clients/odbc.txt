@@ -4,10 +4,10 @@ CrateDB and ODBC
 
 .. NOTE::
 
-   The ODBC driver package is not open source and requires a paid license.
+   The ODBC driver only available if you are using the `Enterprise Edition
+   <https://crate.io/enterprise-edition/>`_ of CrateDB.
 
-   Get started by requesting `a free trial
-   <https://crate.io/enterprise/odbc/>`_.
+   `Contact us </contact>`_ for further information.
 
 .. rubric:: Table of Contents
 
@@ -168,9 +168,3 @@ contains error, warning, and status information.
         SQLGetDiagRec(siType, shHandle, 1, szState, &siError, szError, sizeof(szError), &siAvail);
         printf("ERROR: %s\n", szError);
     }
-
-Want to Know More?
-==================
-
-`Contact us </contact>`_ for further information, or read more about the
-`CrateDB enterprise offering <https://crate.io/enterprise/odbc>`_.
