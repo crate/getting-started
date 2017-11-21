@@ -4,13 +4,11 @@
 Crash, The CrateDB Shell
 ========================
 
-`Crash`_ is a shell for interacting with CrateDB.
+The CrateDB Shell (aka `Crash`_) is shipped with the tarball distribution.
 
-To launch Crash, run:
+Start the shell like so::
 
-::
-
-    sh$ ./bin/crash
+  sh$ ./bin/crash
 
 .. NOTE::
 
