@@ -1,37 +1,61 @@
+.. highlight:: sh
+
 ==============================
 Install CrateDB From a Tarball
 ==============================
+
+This page documents the most basic sort of CrateDB installation.
 
 .. rubric:: Table of Contents
 
 .. contents::
    :local:
 
-Latest Stable Release
-=====================
+Prerequisites
+=============
 
-`Download latest stable release`_.
+CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on OSX and
+OpenJDK_ on Linux Systems.
 
-Start CrateDB by extracting the downloaded archive, move into the *bin* folder
-and run:
+The same JVM version must be used on all CrateDB nodes.
 
-.. code-block:: sh
+We recommend installing `Java 8`_ update 20 or later.
 
-    ./crate
+.. _install_targz:
 
-To create a cluster of CrateDB instances, run the command multiple times.
+Download
+========
 
-Testing Releases
-================
+Download `the latest CrateDB release`_.
 
-.. TODO: should be updated to fetch version from version.json for now we just
-   link to the tarball archive
+.. TIP::
 
-Test builds of CrateDB should only be used for testing upcoming new features
-not in production. `Browse all releases`_.
+   Older releases of CrateDB are `also available`_.
 
-Nightly builds of CrateDB are provided for testing purposes only. You can
-`download the latest builds here`_.
+   Check out the `release notes`_ for specific information about each CrateDB
+   release.
+
+Once downloaded, unpack the tarball and change into the resulting directory::
+
+   sh$ tar -xzf crate-*.tar.gz
+   sh$ cd crate-*
+
+Run
+===
+
+There is no need to configure or build anything.
+
+Once unpacked, CrateDB can be started in the foreground like this::
+
+   sh$ ./bin/crate
+
+This runs a single instance of CrateDB that is bound the local IP address.
+
+:kbd:`Control-C` will stop the process.
+
+Pass the ``--help`` option for command usage information::
+
+   sh$ ./bin/crate --help
 
 .. rubric:: Next Steps
 
@@ -39,6 +63,14 @@ Nightly builds of CrateDB are provided for testing purposes only. You can
 - :doc:`Import Data <../../import/index>`
 - :doc:`Client Libraries <../../clients/index>`
 
-.. _Download latest stable release: https://crate.io/download/
-.. _Browse all releases: https://cdn.crate.io/downloads/releases/
-.. _download the latest builds here: https://cdn.crate.io/downloads/releases/nightly/
+.. _also available: https://cdn.crate.io/downloads/releases/
+.. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html
+.. _crash: https://crate.io/docs/crate/guide/getting_started/connect/crash.html
+.. _How to run CrateDB in a multi node setup: https://crate.io/docs/crate/guide/getting_started/scale/multi_node_setup.html
+.. _install section: https://crate.io/docs/crate/guide/getting_started/install/index.html
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
+.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
+.. _the latest CrateDB release: https://crate.io/download/
+.. _web administration interface: https://crate.io/docs/crate/guide/getting_started/connect/admin_ui.html
+.. _release notes: https://crate.io/docs/crate/reference/en/latest/release_notes/index.html
