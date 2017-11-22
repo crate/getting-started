@@ -8,7 +8,7 @@ multitude of languages and applications to connect and query your data.
 .. rubric:: Table of Contents
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   official
+   official/index
    community
