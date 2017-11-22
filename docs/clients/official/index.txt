@@ -12,4 +12,3 @@ Official Clients
    python
    php
    erlang
-   odbc
