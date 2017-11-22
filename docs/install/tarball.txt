@@ -30,7 +30,7 @@ Download `the latest CrateDB release`_.
 
 .. TIP::
 
-   Older releases of CrateDB are `also available`_.
+   Other releases of CrateDB are `also available`_.
 
    Check out the `release notes`_ for specific information about each CrateDB
    release.
