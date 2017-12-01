@@ -2,6 +2,17 @@
 Install CrateDB on Microsoft Windows
 ====================================
 
+.. NOTE::
+
+   CrateDB requires `Java 8`_. You will need a the `Java JDK`_ installed.
+
+   The same JVM version must be used on all CrateDB nodes.
+
+   We recommend installing `Java 8`_ update 20 or later.
+
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
 .. rubric:: Table of Contents
 
 .. contents::
@@ -10,8 +21,7 @@ Install CrateDB on Microsoft Windows
 Configure Windows
 =================
 
-To install CrateDB on Windows, you will need a `Java JDK installed
-<http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>`_.
+To install CrateDB on Windows, configure your Java JDK.
 
 Set the ``JAVA_HOME`` environment variable:
 

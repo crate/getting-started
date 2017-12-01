@@ -2,15 +2,32 @@
 Install CrateDB on Linux
 ========================
 
-Crate maintains official packages for Debian, RedHat Enterprise Linux, and
-Ubuntu. We recommend you use our one-step installer that will configure the
+CrateDB maintains official packages for Debian, RedHat Enterprise Linux, and
+Ubuntu.
+
+We recommend that you use our one-step installer that will configure the
 appropriate package repository and install CrateDB for you.
 
 .. code-block:: sh
 
     bash -c "$(curl -L install.crate.io)"
 
-If you like to do things manually, this document will show you how.
+If you don't already have `Java 8`_ installed, the above command will try to take
+care of that for you along with a few other housekeeping tasks.
+
+.. NOTE::
+
+   CrateDB requires `Java 8`_. We recommend using `OpenJDK`_ on Linux Systems.
+
+   The same JVM version must be used on all CrateDB nodes.
+
+   We recommend installing `Java 8`_ update 20 or later.
+
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
+
+If you'd prefer to do things manually, the rest of this document will show you
+how.
 
 .. rubric:: Table of Contents
 

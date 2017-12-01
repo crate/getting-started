@@ -14,8 +14,22 @@ terminal application:
 
     bash -c "$(curl -L try.crate.io)"
 
-To create a cluster, run the command multiple times to create new instances
-that will discover each when running on the same machine.
+If you don't already have `Java 8`_ installed, the above command will try to take
+care of that for you.
+
+.. NOTE::
+
+   CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on Mac OS X
+
+   The same JVM version must be used on all CrateDB nodes.
+
+   We recommend installing `Java 8`_ update 20 or later.
+
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
+
+To create a cluster, run the above command multiple times to create new
+instances that will discover each when running on the same machine.
 
 .. rubric:: Next Steps
 
