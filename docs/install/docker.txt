@@ -12,6 +12,15 @@ perfect data store for Docker based applications.
 if you don't have Docker setup yet, find `instructions for all platforms here
 <https://docs.docker.com/engine/installation/>`_.
 
+.. NOTE::
+
+   CrateDB requires `Java 8`_.
+
+   The Docker image automatically uses `OpenJDK`_ for you.
+
+.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
 .. rubric:: Table of Contents
 
 .. contents::

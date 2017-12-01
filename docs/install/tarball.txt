@@ -6,20 +6,23 @@ Install CrateDB From a Tarball
 
 This page documents the most basic sort of CrateDB installation.
 
+.. NOTE::
+
+   CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on Mac OS X
+   and OpenJDK_ on Linux Systems.
+
+   The same JVM version must be used on all CrateDB nodes.
+
+   We recommend installing `Java 8`_ update 20 or later.
+
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
+.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
+
 .. rubric:: Table of Contents
 
 .. contents::
    :local:
-
-Prerequisites
-=============
-
-CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on OSX and
-OpenJDK_ on Linux Systems.
-
-The same JVM version must be used on all CrateDB nodes.
-
-We recommend installing `Java 8`_ update 20 or later.
 
 .. _install_targz:
 
@@ -68,9 +71,6 @@ Pass the ``--help`` option for command usage information::
 .. _crash: https://crate.io/docs/crate/guide/getting_started/connect/crash.html
 .. _How to run CrateDB in a multi node setup: https://crate.io/docs/crate/guide/getting_started/scale/multi_node_setup.html
 .. _install section: https://crate.io/docs/crate/guide/getting_started/install/index.html
-.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
-.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
 .. _the latest CrateDB release: https://crate.io/download/
 .. _web administration interface: https://crate.io/docs/crate/guide/getting_started/connect/admin_ui.html
 .. _release notes: https://crate.io/docs/crate/reference/en/latest/release_notes/index.html
