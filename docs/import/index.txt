@@ -32,11 +32,11 @@ values.
 
     SELECT *
     FROM tweets
-    WHERE user['verified'] = true;
+    WHERE account_user['verified'] = true;
 
-``user['verified']`` indicates a column that is part of an object data type,
-in this case, ``user``. This object contains other fields of any type,
-including other objects.
+``account_user['verified']`` indicates a column that is part of an object data
+type, in this case, ``account_user``. This object contains other fields of any
+type, including other objects.
 
 Analyze Data in Real Time
 -------------------------
@@ -52,16 +52,16 @@ For example:
 .. code-block:: psql
 
     SELECT count(*) AS quantity,
-      user['verified']
+      account_user['verified']
     FROM tweets
-    GROUP BY user['verified']
+    GROUP BY account_user['verified']
     ORDER BY quantity DESC;
 
 This query counts the number of verified and non-verified twitter users and
 displays the quantity by each type. ``count(*)`` is an `aggregation
 <https://en.wikipedia.org/wiki/Aggregate_function>`__ function that returns a
-count of all the rows that match the query. The ``GROUP BY`` clause groups
-each count result into the two possible values of ``user['verified']`` (true
+count of all the rows that match the query. The ``GROUP BY`` clause groups each
+count result into the two possible values of ``account_user['verified']`` (true
 and false).
 
 .. rubric:: Next Steps
