@@ -2,6 +2,17 @@
 Install
 =======
 
+This section of the documentation shows you the basics of how to install
+CrateDB.
+
+.. NOTE::
+
+   For a more comprehensive guide to deploying CrateDB in different
+   environments, check out the `Deployment`_ section of the `CrateDB Guide`_.
+
+.. _Deployment: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/index.html
+
 .. rubric:: Table of Contents
 
 .. toctree::
