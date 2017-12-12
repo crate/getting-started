@@ -28,6 +28,12 @@ First let's connect to a running node::
 
 Let's say we want to create a database for Twitter_ tweets.
 
+.. NOTE::
+
+   If you followed the instructions in the :ref:`Import Sample Data <import>`
+   document, you will already have the ``tweets`` table created and populated
+   with sample data.
+
 We can start by creating the ``tweets`` table::
 
     cr> CREATE TABLE tweets (
@@ -99,8 +105,7 @@ If we only wanted Ford's tweets, we could run::
 
 .. rubric:: Next Steps
 
-- :doc:`Import Data <../import/index>`
-- :doc:`Client Libraries <../clients/index>`
+- :doc:`Start Building <../start-building/index>`
 
 .. _Crash: https://crate.io/docs/clients/crash/en/latest/
 .. _the CrateDB admin UI: https://crate.io/docs/connect/admin_ui/

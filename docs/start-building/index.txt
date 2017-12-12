@@ -1,6 +1,6 @@
-================
-Client Libraries
-================
+==============
+Start Building
+==============
 
 CrateDB is happy at the heart of any application stack, integrating with a
 multitude of languages and applications to connect and query your data.

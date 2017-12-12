@@ -1,6 +1,8 @@
-===========
-Import Data
-===========
+.. _import:
+
+==================
+Import Sample Data
+==================
 
 It's hard to see what a database is capable of without a real world dataset.
 Fortunately CrateDB ships with an easy method of obtaining data to experiment
@@ -66,4 +68,4 @@ and false).
 
 .. rubric:: Next Steps
 
-- :doc:`Client Libraries <../clients/index>`
+- :doc:`Start Building <../start-building/index>`

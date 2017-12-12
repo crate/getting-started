@@ -22,9 +22,8 @@ massive amounts of machine data in real-time.
    :titlesonly:
 
    install/index
-   connect/index
-   import/index
-   clients/index
+   first-use/index
+   start-building/index
 
 .. _CrateDB Reference: https://crate.io/docs/crate/reference/en/latest/
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/

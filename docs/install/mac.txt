@@ -33,7 +33,6 @@ instances that will discover each when running on the same machine.
 
 .. rubric:: Next Steps
 
-- :doc:`Connect <../../connect/index>`
-- :doc:`Import Data <../../import/index>`
-- :doc:`Client Libraries <../../clients/index>`
+- :doc:`First Use <../../first-use/index>`
+- :doc:`Start Building <../start-building/index>`
 

@@ -102,5 +102,4 @@ timeline for a data set to experiment with.
 
 .. rubric:: Next Steps
 
-- :doc:`Import Data <../import/index>`
-- :doc:`Client Libraries <../clients/index>`
+- :doc:`Start Building <../start-building/index>`
