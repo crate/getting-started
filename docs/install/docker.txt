@@ -137,6 +137,5 @@ more complicated, but we have `a guide`_ to get you started.
 
 .. rubric:: Next Steps
 
-- :doc:`Connect <../../connect/index>`
-- :doc:`Import Data <../../import/index>`
-- :doc:`Client Libraries <../../clients/index>`
+- :doc:`First Use <../../first-use/index>`
+- :doc:`Start Building <../start-building/index>`

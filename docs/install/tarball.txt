@@ -62,9 +62,8 @@ Pass the ``--help`` option for command usage information::
 
 .. rubric:: Next Steps
 
-- :doc:`Connect <../../connect/index>`
-- :doc:`Import Data <../../import/index>`
-- :doc:`Client Libraries <../../clients/index>`
+- :doc:`First Use <../../first-use/index>`
+- :doc:`Start Building <../start-building/index>`
 
 .. _also available: https://cdn.crate.io/downloads/releases/
 .. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html

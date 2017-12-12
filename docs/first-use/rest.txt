@@ -17,5 +17,4 @@ Will connect to a cluster and return basic information about the cluster.
 
 .. rubric:: Next Steps
 
-- :doc:`Import Data <../import/index>`
-- :doc:`Client Libraries <../clients/index>`
+- :doc:`Start Building <../start-building/index>`
