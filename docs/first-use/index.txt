@@ -2,10 +2,8 @@
 First Use
 =========
 
-To connect to your CrateDB Cluster, you will need to know the IP or DNS address
-of one node in the cluster and CrateDB uses port *4200* for HTTP transport. You
-then have several options available, our :doc:`Admin UI <admin-ui>`, our
-:doc:`CLI tool <crash>` (Crash) and a :doc:`REST API <rest>`.
+This section of the documentation introduces you to a few things you probably
+want to check out if you're using CrateDB for the first time.
 
 .. rubric:: Table of Contents
 
