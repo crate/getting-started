@@ -21,7 +21,7 @@ Visit the admin interface in your browser at a URL like this one::
 
 Here's what you should see:
 
-.. image:: admin_ui.png
+.. image:: admin-ui.png
 
 .. NOTE::
 
@@ -43,7 +43,7 @@ Overview Bar and Tab
 
 The top of the screen has overview information about the cluster:
 
-.. image:: status_bar.png
+.. image:: status-bar.png
 
 From left to right, this shows:
 
