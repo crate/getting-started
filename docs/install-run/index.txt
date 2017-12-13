@@ -1,9 +1,9 @@
-=======
-Install
-=======
+===============
+Install and Run
+===============
 
-This section of the documentation shows you the basics of how to install
-CrateDB.
+This section of the documentation shows you the basics of how to install and
+run CrateDB.
 
 .. NOTE::
 
