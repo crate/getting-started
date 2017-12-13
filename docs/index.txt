@@ -21,7 +21,7 @@ massive amounts of machine data in real-time.
    :maxdepth: 2
    :titlesonly:
 
-   install/index
+   install-run/index
    first-use/index
    start-building/index
 
