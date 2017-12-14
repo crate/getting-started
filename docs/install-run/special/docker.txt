@@ -1,4 +1,4 @@
-.. _getting_started_docker:
+.. _docker-install:
 
 =====================
 Run CrateDB on Docker
@@ -137,5 +137,5 @@ more complicated, but we have `a guide`_ to get you started.
 
 .. rubric:: Next Steps
 
-- :doc:`First Use <../../first-use/index>`
-- :doc:`Start Building <../start-building/index>`
+- :doc:`First Use <../../../first-use/index>`
+- :doc:`Start Building <../../start-building/index>`

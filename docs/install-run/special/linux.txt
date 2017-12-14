@@ -1,3 +1,5 @@
+.. _linux-install:
+
 ========================
 Install CrateDB on Linux
 ========================
@@ -342,5 +344,5 @@ Example
 
 .. rubric:: Next Steps
 
-- :doc:`First Use <../../first-use/index>`
-- :doc:`Start Building <../start-building/index>`
+- :doc:`First Use <../../../first-use/index>`
+- :doc:`Start Building <../../start-building/index>`
