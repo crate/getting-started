@@ -16,10 +16,9 @@ run CrateDB.
 .. rubric:: Table of Contents
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :titlesonly:
 
-   linux
-   mac
-   windows
-   docker
-   tarball
+   basic
+   special/index
+

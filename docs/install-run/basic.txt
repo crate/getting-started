@@ -1,10 +1,18 @@
 .. highlight:: sh
 
-==============================
-Install CrateDB From a Tarball
-==============================
+.. _basic-install:
+
+==================================
+Basic CrateDB Tarball Installation
+==================================
 
 This page documents the most basic sort of CrateDB installation.
+
+.. NOTE::
+
+   Specialised install guides are available for: :ref:`Linux <linux-install>`,
+   :ref:`Mac OS X <mac-install>`, :ref:`Windows <windows-install>`, and
+   :ref:`Docker <docker-install>`
 
 .. NOTE::
 

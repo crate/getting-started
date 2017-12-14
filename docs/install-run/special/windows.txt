@@ -1,3 +1,5 @@
+.. _windows-install:
+
 ====================================
 Install CrateDB on Microsoft Windows
 ====================================
@@ -38,7 +40,7 @@ Allow the ports CrateDB uses through the Windows Firewall:
 Install CrateDB
 ===============
 
-:doc:`Download the CrateDB Tarball <tarball>`, expand it and move to a
+:ref:`Download the CrateDB Tarball <install_targz>`, expand it and move to a
 convenient location.
 
 Start CrateDB by running ``.\bin\crate``, to create a cluster, run the command
@@ -46,5 +48,5 @@ multiple times.
 
 .. rubric:: Next Steps
 
-- :doc:`First Use <../../first-use/index>`
-- :doc:`Start Building <../start-building/index>`
+- :doc:`First Use <../../../first-use/index>`
+- :doc:`Start Building <../../start-building/index>`

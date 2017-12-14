@@ -1,0 +1,15 @@
+====================
+Specialized Installs
+====================
+
+
+.. rubric:: Table of Contents
+
+.. toctree::
+   :maxdepth: 1
+
+   linux
+   mac
+   windows
+   docker
+
