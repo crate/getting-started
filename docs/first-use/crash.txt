@@ -100,7 +100,7 @@ If we only wanted Ford's tweets, we could run::
 
    `Configuration <https://crate.io/docs/crate/reference/configuration.html>`_
    - After you're done trying out CrateDB and before you go into production you
-   should take a look at this section. Especially the `CRATE_HEAP_SIZE`
+   should take a look at this section. Especially the ``CRATE_HEAP_SIZE``
    environment variable is very important!
 
 .. rubric:: Next Steps
