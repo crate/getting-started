@@ -60,7 +60,8 @@ Once unpacked, CrateDB can be started in the foreground like this::
 
    sh$ ./bin/crate
 
-This runs a single instance of CrateDB that is bound the local IP address.
+This command runs a single instance of CrateDB that is bound to the local IP
+address.
 
 :kbd:`Control-C` will stop the process.
 
@@ -68,10 +69,10 @@ Pass the ``--help`` option for command usage information::
 
    sh$ ./bin/crate --help
 
-.. rubric:: Next Steps
+.. TIP::
 
-- :doc:`First Use <../../first-use/index>`
-- :doc:`Start Building <../start-building/index>`
+   Now you have CrateDB up and running, check out the
+   :ref:`First Use <first-use>` section.
 
 .. _also available: https://cdn.crate.io/downloads/releases/
 .. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html
