@@ -2,6 +2,21 @@
 Specialized Installs
 ====================
 
+CrateDB is super easy to :ref:`get up and running directly from the tarball
+<basic-install>`. But we also have these specialized install guides for
+different operating systems or running on Docker, if that's more your thing.
+
+.. NOTE::
+
+   These instructions are designed to get you up and running on your personal
+   computer.
+
+   For putting CrateDB into production, you can learn more about
+   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
+
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 
 .. rubric:: Table of Contents
 
