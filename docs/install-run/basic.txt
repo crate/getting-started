@@ -15,7 +15,7 @@ This page shows you how get up and running directly from the tarball.
    :ref:`Mac OS X <mac-install>`, :ref:`Windows <windows-install>`, and
    :ref:`Docker <docker-install>`.
 
-.. NOTE::
+.. CAUTION::
 
    These instructions are designed to get you up and running on your personal
    computer.
@@ -82,10 +82,10 @@ Pass the ``--help`` option for command usage information::
 
    sh$ ./bin/crate --help
 
-.. TIP::
+.. SEEALSO::
 
-   Now you have CrateDB up and running, check out the
-   :ref:`First Use <first-use>` section.
+   Now you have CrateDB up and running, check out the :ref:`First
+   Use <first-use>` section.
 
 .. _also available: https://cdn.crate.io/downloads/releases/
 .. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html

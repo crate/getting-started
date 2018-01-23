@@ -3,10 +3,10 @@ Specialized Installs
 ====================
 
 CrateDB is super easy to :ref:`get up and running directly from the tarball
-<basic-install>`. But we also have these specialized install guides for
-different operating systems or running on Docker, if that's more your thing.
+<basic-install>`. But we also have a few specialized guides for quickly getting
+set up with CrateDB.
 
-.. NOTE::
+.. CAUTION::
 
    These instructions are designed to get you up and running on your personal
    computer.
