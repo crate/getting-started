@@ -43,8 +43,7 @@ Install CrateDB
 :ref:`Download the CrateDB Tarball <install_targz>`, expand it and move to a
 convenient location.
 
-Start CrateDB by running ``.\bin\crate``, to create a cluster, run the command
-multiple times.
+Start CrateDB by running ``.\bin\crate``.
 
 .. rubric:: Next Steps
 
