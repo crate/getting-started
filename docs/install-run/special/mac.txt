@@ -30,9 +30,6 @@ care of that for you.
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
 
-To create a cluster, run the above command multiple times to create new
-instances that will discover each when running on the same machine.
-
 .. rubric:: Next Steps
 
 - :doc:`First Use <../../../first-use/index>`
