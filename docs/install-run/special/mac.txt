@@ -9,19 +9,30 @@ Install CrateDB on Mac OS |nbsp| X
 .. |nbsp| unicode:: 0xA0
    :trim:
 
-You can install and run CrateDB on a Mac with one simple command in your
-terminal application:
+Install CrateDB with our one-step installer, like so:
 
 .. code-block:: sh
 
-    bash -c "$(curl -L try.crate.io)"
+   sh$ bash -c "$(curl -L try.crate.io)"
 
 If you don't already have `Java 8`_ installed, the above command will try to take
-care of that for you.
+care of that for you along with a few other housekeeping tasks.
+
+.. CAUTION::
+
+   These instructions are designed to get you up and running on your personal
+   computer.
+
+   For putting CrateDB into production, you can learn more about
+   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
+
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 
 .. NOTE::
 
-   CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on Mac OS X
+   CrateDB requires `Java 8`_. We recommend using `Oracle's Java`_ on Mac OS X.
 
    The same JVM version must be used on all CrateDB nodes.
 
@@ -30,8 +41,7 @@ care of that for you.
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
 
-.. rubric:: Next Steps
+.. SEEALSO::
 
-- :doc:`First Use <../../../first-use/index>`
-- :doc:`Start Building <../../start-building/index>`
-
+   Now you have CrateDB up and running, check out the :ref:`First
+   Use <first-use>` section.
