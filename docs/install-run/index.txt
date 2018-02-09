@@ -2,16 +2,21 @@
 Install and Run
 ===============
 
-This section of the documentation shows you the basics of how to install and
-run CrateDB.
+Get set up with CrateDB in no time at all.
 
-.. NOTE::
+Just pick your preferred method.
 
-   For a more comprehensive guide to deploying CrateDB in different
-   environments, check out the `Deployment`_ section of the `CrateDB Guide`_.
+.. CAUTION::
 
-.. _Deployment: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
-.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/index.html
+   These instructions are designed to get you up and running on your personal
+   computer.
+
+   For putting CrateDB into production, you can learn more about
+   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
+
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 
 .. rubric:: Table of Contents
 
