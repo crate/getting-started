@@ -1,71 +1,79 @@
-.. _import:
+.. _import-test-data:
 
-==================
-Import Sample Data
-==================
+================
+Import Test Data
+================
 
-It's hard to see what a database is capable of without a real world dataset.
-Fortunately CrateDB ships with an easy method of obtaining data to experiment
-with.
+Before you can really experiment with CrateDB, you need some data to play
+around with.
+
+In this document, we show you how to import test data.
+
+.. NOTE::
+
+   This document assumes that you have CrateDB :ref:`installed and running
+   <install-run>`.
 
 .. rubric:: Table of Contents
 
 .. contents::
    :local:
 
-Import Sample Data
+Introducing: The CrateDB Admin UI
+=================================
+
+CrateDB ships with a web administration user interface (UI), or `admin UI`_ for
+short.
+
+The CrateDB admin UI runs on every CrateDB node, and you can use it to inspect
+and interact with the whole CrateDB cluster in a number of ways.
+
+We will use the admin UI throughout this section.
+
+Access the admin UI in your browser using a URL like this::
+
+  http://localhost:4200/
+
+If CrateDB is not running locally, replace ``localhost`` with the hostname
+CrateDB is running on.
+
+You should see something like this:
+
+.. image:: admin-ui.png
+
+.. _import:
+
+Import Some Tweets
 ==================
 
-Open *http://SERVER\_IP:4200/admin* to access the CrateDB Admin UI. Click *Get
-Started* to import some sample Twitter data and use the *Console* tab to try
-out some queries.
+In the admin UI, select the *Help* tab (question mark icon) from the left-hand
+navigation menu.
 
-CrateDB Uses Standard SQL
-=========================
+You should see something like this:
 
-CrateDB uses familiar SQL syntax for performing real-time distributed queries
-across a cluster. You gain the benefits of a NoSQL based, scalable data store
-without needing to rewrite your application queries.
+.. image:: admin-ui-help.png
 
-For example, we want to see tweets from verified users, returning all column
-values.
+Select *IMPORT TWEETS FOR TESTING* and follow the instructions to authenticate
+your Twitter account.
 
-.. code-block:: psql
+.. NOTE::
 
-    SELECT *
-    FROM tweets
-    WHERE account_user['verified'] = true;
+   Don't worry. This isn’t going to post anything on your behalf. It doesn’t
+   even look at your tweets. All this does is import a selection of recent
+   public tweets on Twitter.
 
-``account_user['verified']`` indicates a column that is part of an object data
-type, in this case, ``account_user``. This object contains other fields of any
-type, including other objects.
+Leave this running and stop it when you have enough tweets. Aim for at least
+few thousand.
 
-Analyze Data in Real Time
--------------------------
+When you're done, select the *Tables* icon from the left-hand navigation.
 
-CrateDB's SQL support includes distributed `aggregation
-<https://crate.io/docs/stable/sql/aggregation.html>`_, `scalar
-<https://crate.io/docs/stable/sql/scalar.html>`_ functions and `geospatial
-support <https://crate.io/docs/stable/sql/data_types.html#geo-point>`_ for
-more complex queries and data analysis.
+You should see something like this:
 
-For example:
+.. image:: admin-ui-tweets.png
 
-.. code-block:: psql
+Next
+====
 
-    SELECT count(*) AS quantity,
-      account_user['verified']
-    FROM tweets
-    GROUP BY account_user['verified']
-    ORDER BY quantity DESC;
+Now you have some test data, :ref:`learn how to query it <query-test-data>`.
 
-This query counts the number of verified and non-verified twitter users and
-displays the quantity by each type. ``count(*)`` is an `aggregation
-<https://en.wikipedia.org/wiki/Aggregate_function>`__ function that returns a
-count of all the rows that match the query. The ``GROUP BY`` clause groups each
-count result into the two possible values of ``account_user['verified']`` (true
-and false).
-
-.. rubric:: Next Steps
-
-- :doc:`Start Building <../start-building/index>`
+.. _admin UI: https://crate.io/docs/clients/admin-ui/en/latest/

@@ -7,15 +7,11 @@ Run CrateDB on Docker
 CrateDB and Docker_ are a great match thanks to CrateDB's shared-nothing,
 horizontally scalable architecture that lends itself well to containerization.
 
-.. _Docker: https://www.docker.com/
-
 Spin up the official CrateDB Docker image, like so:
 
 .. code-block:: text
 
    sh$ docker run -p 4200:4200 crate
-
-.. _CrateDB Docker image: https://hub.docker.com/_/crate/
 
 .. CAUTION::
 
@@ -29,11 +25,13 @@ Spin up the official CrateDB Docker image, like so:
    If you encounter `bootstrap check`_ errors, consult the `section on Docker
    resource constraints`_.
 
-.. _full guide to CrateDB and Docker: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html
-.. _bootstrap check: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
-.. _section on Docker resource constraints: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html#resource-constraints
-
 .. SEEALSO::
 
    Now you have CrateDB up and running, check out the :ref:`First
    Use <first-use>` section.
+
+.. _bootstrap check: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
+.. _CrateDB Docker image: https://hub.docker.com/_/crate/
+.. _Docker: https://www.docker.com/
+.. _full guide to CrateDB and Docker: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html
+.. _section on Docker resource constraints: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html#resource-constraints

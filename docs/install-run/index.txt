@@ -1,10 +1,10 @@
+.. _install-run:
+
 ===============
 Install and Run
 ===============
 
-Get set up with CrateDB in no time at all.
-
-Just pick your preferred method.
+In this section, we show you how to install and run CrateDB.
 
 .. CAUTION::
 

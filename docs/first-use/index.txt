@@ -4,15 +4,12 @@
 First Use
 =========
 
-This section of the documentation introduces you to a few things you probably
-want to check out if you're using CrateDB for the first time.
+In this section, we show you how to import and query some test data.
 
 .. rubric:: Table of Contents
 
 .. toctree::
    :maxdepth: 1
 
-   admin-ui
    import
-   crash
-   rest
+   query
