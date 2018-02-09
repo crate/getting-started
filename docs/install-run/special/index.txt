@@ -14,10 +14,6 @@ set up with CrateDB.
    For putting CrateDB into production, you can learn more about
    `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
 
-.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
-.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
-.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
-
 .. rubric:: Table of Contents
 
 .. toctree::
@@ -28,3 +24,6 @@ set up with CrateDB.
    windows
    docker
 
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html

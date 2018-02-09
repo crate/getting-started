@@ -1,3 +1,5 @@
+.. _start-building:
+
 ==============
 Start Building
 ==============

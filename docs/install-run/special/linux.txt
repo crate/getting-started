@@ -7,9 +7,13 @@ Install CrateDB on Linux
 CrateDB maintains packages for `Debian GNU/Linux`_, `Ubuntu`_, and `RedHat
 Linux`_.
 
-.. _Debian GNU/Linux: https://crate.io/docs/crate/guide/en/latest/deployment/linux/debian.html
-.. _Ubuntu: https://crate.io/docs/crate/guide/en/latest/deployment/linux/ubuntu.html
-.. _RedHat Linux: https://crate.io/docs/crate/guide/en/latest/deployment/linux/red-hat.html
+.. rubric:: Table of Contents
+
+.. contents::
+   :local:
+
+One-Step Installer
+==================
 
 If you're using one of these operating systems, our one-step installer will
 automatically configure your system and install the correct package for you:
@@ -29,10 +33,6 @@ care of that for you along with a few other housekeeping tasks.
    For putting CrateDB into production, you can learn more about
    `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
 
-.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
-.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
-.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
-
 .. NOTE::
 
    CrateDB requires `Java 8`_. We recommend using `OpenJDK`_ on Linux Systems.
@@ -41,10 +41,17 @@ care of that for you along with a few other housekeeping tasks.
 
    We recommend installing `Java 8`_ update 20 or later.
 
+Next
+====
+
+Now you have CrateDB up and running, it's time to :ref:`import some data and
+learn how to query <first-use>`.
+
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _OpenJDK: http://openjdk.java.net/projects/jdk8/
-
-.. SEEALSO::
-
-   Now you have CrateDB up and running, check out the :ref:`First
-   Use <first-use>` section.
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
+.. _Debian GNU/Linux: https://crate.io/docs/crate/guide/en/latest/deployment/linux/debian.html
+.. _Ubuntu: https://crate.io/docs/crate/guide/en/latest/deployment/linux/ubuntu.html
+.. _RedHat Linux: https://crate.io/docs/crate/guide/en/latest/deployment/linux/red-hat.html

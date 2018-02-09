@@ -12,9 +12,6 @@ Install CrateDB on Microsoft Windows
 
    We recommend installing `Java 8`_ update 20 or later.
 
-.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-.. _Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-
 .. rubric:: Table of Contents
 
 .. contents::
@@ -45,7 +42,11 @@ convenient location.
 
 Start CrateDB by running ``.\bin\crate``.
 
-.. rubric:: Next Steps
+Next
+====
 
-- :doc:`First Use <../../../first-use/index>`
-- :doc:`Start Building <../../start-building/index>`
+Now you have CrateDB up and running, it's time to :ref:`import some data and
+learn how to query <first-use>`.
+
+.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
