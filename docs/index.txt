@@ -5,6 +5,12 @@ Getting Started With CrateDB
 CrateDB is a distributed SQL database that makes it simple to store and analyze
 massive amounts of machine data in real-time.
 
+This step-by-step tutorial will show you how to:
+
+- Get CrateDB up and running on your personal computer
+- Import test data and learn how to query
+- Start building your first application
+
 .. NOTE::
 
    This is beginner documentation.
