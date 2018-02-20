@@ -7,6 +7,14 @@ Run CrateDB on Docker
 CrateDB and Docker_ are a great match thanks to CrateDB's shared-nothing,
 horizontally scalable architecture that lends itself well to containerization.
 
+.. rubric:: Table of Contents
+
+.. contents::
+   :local:
+
+One-Step Setup
+==============
+
 Spin up the official CrateDB Docker image, like so:
 
 .. code-block:: text
@@ -25,10 +33,11 @@ Spin up the official CrateDB Docker image, like so:
    If you encounter `bootstrap check`_ errors, consult the `section on Docker
    resource constraints`_.
 
-.. SEEALSO::
+Next Steps
+==========
 
-   Now you have CrateDB up and running, check out the :ref:`First
-   Use <first-use>` section.
+Now you have CrateDB up and running, it's time to :ref:`import some test data
+<import-test-data>`.
 
 .. _bootstrap check: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
 .. _CrateDB Docker image: https://hub.docker.com/_/crate/

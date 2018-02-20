@@ -42,11 +42,11 @@ convenient location.
 
 Start CrateDB by running ``.\bin\crate``.
 
-Next
-====
+Next Steps
+==========
 
-Now you have CrateDB up and running, it's time to :ref:`import some data and
-learn how to query <first-use>`.
+Now you have CrateDB up and running, it's time to :ref:`import some test data
+<import-test-data>`.
 
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html

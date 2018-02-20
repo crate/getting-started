@@ -19,6 +19,8 @@ In this document, we show you how to import test data.
 .. contents::
    :local:
 
+.. _admin-ui:
+
 Introducing: The CrateDB Admin UI
 =================================
 
@@ -71,8 +73,8 @@ You should see something like this:
 
 .. image:: admin-ui-tweets.png
 
-Next
-====
+Next Steps
+==========
 
 Now you have some test data, :ref:`learn how to query it <query-test-data>`.
 
