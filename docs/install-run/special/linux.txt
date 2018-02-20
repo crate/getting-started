@@ -12,8 +12,8 @@ Linux`_.
 .. contents::
    :local:
 
-One-Step Installer
-==================
+One-Step Setup
+==============
 
 If you're using one of these operating systems, our one-step installer will
 automatically configure your system and install the correct package for you:
@@ -35,17 +35,16 @@ care of that for you along with a few other housekeeping tasks.
 
 .. NOTE::
 
-   CrateDB requires `Java 8`_. We recommend using `OpenJDK`_ on Linux Systems.
+   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
+   using `OpenJDK`_ on Linux Systems.
 
    The same JVM version must be used on all CrateDB nodes.
 
-   We recommend installing `Java 8`_ update 20 or later.
+Next Steps
+==========
 
-Next
-====
-
-Now you have CrateDB up and running, it's time to :ref:`import some data and
-learn how to query <first-use>`.
+Now you have CrateDB up and running, it's time to :ref:`import some test data
+<import-test-data>`.
 
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _OpenJDK: http://openjdk.java.net/projects/jdk8/

@@ -25,7 +25,7 @@ Query Your Tweets
 One of the easiest ways to query CrateDB is with the query console in the
 CrateDB admin UI.
 
-:ref:`Open up the admin UI <import-test-data>`.
+:ref:`Open up the admin UI <admin-ui>`.
 
 Select the *Console* tab from the left-hand navigation menu.
 
@@ -67,7 +67,8 @@ also comes with `fulltext search`_.
 
 .. SEEALSO::
 
-   Consult `the CrateDB query reference`_ for more information.
+   Consult `the CrateDB query reference`_ for documentation on the full range
+   of query capabilities.
 
 Taking It Further
 =================
@@ -116,9 +117,9 @@ You should see something like this:
    +---------------------------------+
    | account_user['followers_count'] |
    +---------------------------------+
+   |                         1416583 |
    |                         1076527 |
-   |                         1076527 |
-   |                         1075617 |
+   |                         1025614 |
    |                          886577 |
    |                          854054 |
    |                          818439 |
@@ -177,10 +178,10 @@ CrateDB will respond using ``JSON``. You should see something like this:
        ]
    }
 
-In this example, we have a single result row: ``3879``.
+In this example, we have a single row with a single column: ``3879``.
 
-Next
-====
+Next Steps
+==========
 
 Now you know how to query CrateDB manually, it's time to :ref:`find a client
 library and start building <start-building>`.
