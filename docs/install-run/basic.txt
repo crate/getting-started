@@ -70,9 +70,9 @@ address.
 
 :kbd:`Control-C` will stop the process.
 
-Pass the ``--help`` option for command usage information::
+.. TIP::
 
-   sh$ ./bin/crate --help
+   Consult the `CrateDB reference documentation`_ for help using this command.
 
 Next
 ====
@@ -84,6 +84,7 @@ learn how to query <first-use>`.
 .. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html
 .. _crash: https://crate.io/docs/crate/guide/getting_started/connect/crash.html
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _CrateDB reference documentation: https://crate.io/docs/crate/reference/en/latest/run.html
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
 .. _How to run CrateDB in a multi node setup: https://crate.io/docs/crate/guide/getting_started/scale/multi_node_setup.html
 .. _install section: https://crate.io/docs/crate/guide/getting_started/install/index.html
