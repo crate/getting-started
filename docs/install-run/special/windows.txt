@@ -4,43 +4,44 @@
 Install CrateDB on Microsoft Windows
 ====================================
 
-.. NOTE::
-
-   CrateDB requires `Java 8`_. You will need a the `Java JDK`_ installed.
-
-   The same JVM version must be used on all CrateDB nodes.
-
-   We recommend installing `Java 8`_ update 20 or later.
+Because CrateDB is a Java application, it runs effortlessly on Microsoft
+Windows.
 
 .. rubric:: Table of Contents
 
 .. contents::
    :local:
 
-Configure Windows
-=================
+Download and Run
+================
 
-To install CrateDB on Windows, configure your Java JDK.
+For this specialized guide, we have adapted the :ref:`basic tarball
+installation <basic-install>` instructions for use with the Windows
+`PowerShell`_.
 
-Set the ``JAVA_HOME`` environment variable:
+Download `the latest CrateDB release`_.
 
-.. image:: windows-envvar.png
-   :alt: Windows environment variables
+Once downloaded, expand the tarball using a tool like `7-Zip`_.
 
-|
+Start the PowerShell, change into the expanded tarball folder, and start
+CrateDB, like so:
 
-Allow the ports CrateDB uses through the Windows Firewall:
+.. code-block:: text
 
-.. image:: windows-port.gif
-   :alt: Windows Firewall ports
+   PS> ./bin/crate
 
-Install CrateDB
-===============
+.. CAUTION::
 
-:ref:`Download the CrateDB Tarball <install_targz>`, expand it and move to a
-convenient location.
+   These instructions are designed to get you up and running on your personal
+   computer.
 
-Start CrateDB by running ``.\bin\crate``.
+   For putting CrateDB into production, you can learn more about
+   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
+
+.. NOTE::
+
+   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
+   using `Oracle's Java`_ on Microsoft Windows.
 
 Next Steps
 ==========
@@ -48,5 +49,11 @@ Next Steps
 Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
+.. _7-Zip: http://www.7-zip.org/
+.. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
 .. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-.. _Java JDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
+.. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
+.. _the latest CrateDB release: https://crate.io/download/
+.. _PowerShell: https://docs.microsoft.com/en-us/powershell/
