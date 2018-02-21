@@ -9,6 +9,8 @@ Install CrateDB on Mac OS |nbsp| X
 .. |nbsp| unicode:: 0xA0
    :trim:
 
+Because CrateDB is a Java application, it runs effortlessly on Mac OS X.
+
 .. rubric:: Table of Contents
 
 .. contents::
@@ -17,7 +19,7 @@ Install CrateDB on Mac OS |nbsp| X
 One-Step Setup
 ==============
 
-You can install and run CrateDB on a Mac with one simple command in your
+You can install and run CrateDB on Mac OS X with one simple command in your
 terminal application:
 
 .. code-block:: sh
@@ -39,8 +41,6 @@ care of that for you along with a few other housekeeping tasks.
 
    CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
    using `Oracle's Java`_ on Mac OS X.
-
-   The same JVM version must be used on all CrateDB nodes.
 
 Next Steps
 ==========

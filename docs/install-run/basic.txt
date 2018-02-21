@@ -7,13 +7,14 @@ Basic CrateDB Tarball Installation
 ==================================
 
 
-This page shows you how get up and running directly from the tarball.
+This page shows you how get up and running directly from the tarball on any
+`Unix-like system`_.
 
 .. NOTE::
 
    Specialised install guides are available for: :ref:`Linux <linux-install>`,
-   :ref:`Mac OS X <mac-install>`, :ref:`Windows <windows-install>`, and
-   :ref:`Docker <docker-install>`.
+   :ref:`Mac OS X <mac-install>`, :ref:`Microsoft Windows <windows-install>`,
+   and :ref:`Docker <docker-install>`.
 
 .. CAUTION::
 
@@ -27,8 +28,6 @@ This page shows you how get up and running directly from the tarball.
 
    CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
    using `Oracle's Java`_ on Mac OS X and OpenJDK_ on Linux Systems.
-
-   The same JVM version must be used on all CrateDB nodes.
 
 .. rubric:: Table of Contents
 
@@ -92,4 +91,5 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 .. _release notes: https://crate.io/docs/crate/reference/en/latest/release_notes/index.html
 .. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 .. _the latest CrateDB release: https://crate.io/download/
+.. _Unix-like system: https://en.wikipedia.org/wiki/Unix-like
 .. _web administration interface: https://crate.io/docs/crate/guide/getting_started/connect/admin_ui.html
