@@ -74,7 +74,7 @@ Taking It Further
 =================
 
 Before we take a look at client libraries for CrateDB, let's take a quick look
-at two additional ways you can query CrateDB.
+at three additional ways you can query CrateDB.
 
 The CrateDB Shell
 -----------------
@@ -130,7 +130,6 @@ You should see something like this:
    +---------------------------------+
    SELECT 10 rows in set (0.003 sec)
 
-
 The CrateDB HTTP Endpoint
 -------------------------
 
@@ -138,7 +137,7 @@ CrateDB provides a `HTTP endpoint`_.
 
 .. TIP::
 
-   If you're not familiar with HTTP APIs, feel free to skip to the end.
+   If you're not familiar with HTTP APIs, feel free to skip this section.
 
 Let's run another query:
 
@@ -180,6 +179,16 @@ CrateDB will respond using ``JSON``. You should see something like this:
 
 In this example, we have a single row with a single column: ``3879``.
 
+Third-Party Client Tools
+------------------------
+
+The admin UI and Crash are the two client tools that ship with CrateDB. But
+those are not the only client tools you can use with CrateDB.
+
+Because CrateDB uses the PostgreSQL wire protocol, most PostgreSQL compatible
+client tools should work with CrateDB. Check out the `clients category`_ on the
+blog for highlighted client tools.
+
 Next Steps
 ==========
 
@@ -187,6 +196,7 @@ Now you know how to query CrateDB manually, it's time to :ref:`find a client
 library and start building <start-building>`.
 
 .. _aggregation: https://crate.io/docs/stable/sql/aggregation.html
+.. _clients category: https://crate.io/a/category/clients/
 .. _Crash: https://crate.io/docs/clients/crash/en/latest/
 .. _fulltext search: https://crate.io/docs/crate/reference/en/latest/general/dql/fulltext.html
 .. _geospatial: https://crate.io/docs/stable/sql/data_types.html#geo-point
