@@ -31,7 +31,7 @@ Pick your library, and start building!
 | Node.js   | Community   | `crate-connect`_, `cratejs`_, | `Loopback`_      |
 |           |             | `node-crate`_                 |                  |
 +-----------+-------------+-------------------------------+------------------+
-| C# (.NET) | Community   | `Crate.Client`_               | `Npgsql`_        |
+| C# (.NET) | Community   | `Npgsql`_                     |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Go        | Community   | `go-crate`_                   |                  |
 +-----------+-------------+-------------------------------+------------------+
