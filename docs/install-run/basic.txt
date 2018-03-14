@@ -13,8 +13,8 @@ This page shows you how get up and running directly from the tarball on any
 .. NOTE::
 
    Specialised install guides are available for: :ref:`Linux <linux-install>`,
-   :ref:`Mac OS X <mac-install>`, :ref:`Microsoft Windows <windows-install>`,
-   and :ref:`Docker <docker-install>`.
+   :ref:`macOS <mac-install>`, :ref:`Microsoft Windows <windows-install>`, and
+   :ref:`Docker <docker-install>`.
 
 .. CAUTION::
 
@@ -27,7 +27,7 @@ This page shows you how get up and running directly from the tarball on any
 .. NOTE::
 
    CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
-   using `Oracle's Java`_ on Mac OS X and OpenJDK_ on Linux Systems.
+   using `Oracle's Java`_ on macOS and OpenJDK_ on Linux Systems.
 
 .. rubric:: Table of Contents
 
