@@ -22,6 +22,11 @@ This step-by-step tutorial will show you how to:
    Check out the `CrateDB Guide`_ for high-level documentation, including
    overviews, best practices, and tutorials.
 
+.. SEEALSO::
+
+   Getting Started With CrateDB is an open source documentation project and is
+   `hosted on GitHub`_.
+
 .. rubric:: Table of Contents
 
 .. toctree::
@@ -34,3 +39,4 @@ This step-by-step tutorial will show you how to:
 
 .. _CrateDB Reference: https://crate.io/docs/crate/reference/en/latest/
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
+.. _hosted on GitHub: https://github.com/crate/getting-started
