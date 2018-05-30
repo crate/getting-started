@@ -7,6 +7,19 @@ Install CrateDB on Microsoft Windows
 Because CrateDB is a Java application, it runs effortlessly on Microsoft
 Windows.
 
+.. NOTE::
+
+   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
+   using `Oracle's Java`_ on Microsoft Windows.
+
+.. SEEALSO::
+
+   These instructions are designed to get you up and running on your personal
+   computer.
+
+   For putting CrateDB into production, you can learn more about
+   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
+
 .. rubric:: Table of Contents
 
 .. contents::
@@ -29,19 +42,6 @@ CrateDB, like so:
 .. code-block:: text
 
    PS> ./bin/crate
-
-.. CAUTION::
-
-   These instructions are designed to get you up and running on your personal
-   computer.
-
-   For putting CrateDB into production, you can learn more about
-   `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
-
-.. NOTE::
-
-   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
-   using `Oracle's Java`_ on Microsoft Windows.
 
 Next Steps
 ==========
