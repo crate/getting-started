@@ -12,22 +12,20 @@ This page shows you how get up and running directly from the tarball on any
 
 .. NOTE::
 
+   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
+   using `Oracle's Java`_ on macOS and OpenJDK_ on Linux Systems.
+
+.. SEEALSO::
+
    Specialised install guides are available for: :ref:`Linux <linux-install>`,
    :ref:`macOS <mac-install>`, :ref:`Microsoft Windows <windows-install>`, and
    :ref:`Docker <docker-install>`.
-
-.. CAUTION::
 
    These instructions are designed to get you up and running on your personal
    computer.
 
    For putting CrateDB into production, you can learn more about
    `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
-
-.. NOTE::
-
-   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
-   using `Oracle's Java`_ on macOS and OpenJDK_ on Linux Systems.
 
 .. rubric:: Table of Contents
 
@@ -41,17 +39,17 @@ Download
 
 Download `the latest CrateDB release`_.
 
-.. TIP::
+Once downloaded, unpack the tarball and change into the resulting directory::
+
+   sh$ tar -xzf crate-*.tar.gz
+   sh$ cd crate-*
+
+.. SEEALSO::
 
    Other releases of CrateDB are `also available`_.
 
    Check out the `release notes`_ for specific information about each CrateDB
    release.
-
-Once downloaded, unpack the tarball and change into the resulting directory::
-
-   sh$ tar -xzf crate-*.tar.gz
-   sh$ cd crate-*
 
 Run
 ===
@@ -67,7 +65,7 @@ address.
 
 :kbd:`Control-C` will stop the process.
 
-.. TIP::
+.. SEEALSO::
 
    Consult the `CrateDB reference documentation`_ for help using this command.
 

@@ -58,11 +58,10 @@ You should see something like this:
 Select *IMPORT TWEETS FOR TESTING* and follow the instructions to authenticate
 your Twitter account.
 
-.. NOTE::
+.. TIP::
 
-   Don't worry. This isn’t going to post anything on your behalf. It doesn’t
-   even look at your tweets. All this does is import a selection of recent
-   public tweets on Twitter.
+   Don't worry. This isn’t going to post anything on your behalf. All this does
+   is import a selection of recent public tweets on Twitter.
 
 Leave this running and stop it when you have enough tweets. Aim for at least
 few thousand.
