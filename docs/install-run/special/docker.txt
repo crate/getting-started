@@ -17,9 +17,9 @@ One-Step Setup
 
 Spin up the official CrateDB Docker image, like so:
 
-.. code-block:: text
+.. code-block:: console
 
-   sh$ docker run -p 4200:4200 crate
+   sh$ docker run -p "4200:4200" crate
 
 .. CAUTION::
 

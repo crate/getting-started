@@ -79,13 +79,15 @@ at three additional ways you can query CrateDB.
 The CrateDB Shell
 -----------------
 
-The CrateDB Shell (aka `Crash`_) is a command-line shell that comes with CrateDB.
+The CrateDB Shell (aka `Crash`_) is a command-line shell.
 
-Start the shell like so:
+First, you must `install Crash`_.
 
-.. code-block:: sh
+Then, you can start the shell like so:
 
-   sh$ ./bin/crash
+.. code-block:: console
+
+   sh$ crash
 
 This will automatically connect to CrateDB running on ``localhost``.
 
@@ -150,7 +152,7 @@ This time, all we want to know is how many tweets we have.
 Using `HTTPie`_, you can run this query against CrateDB listening on
 ``localhost:4200``, like so:
 
-.. code-block:: sh
+.. code-block:: console
 
    sh$ http localhost:4200/_sql stmt="SELECT COUNT(*) FROM tweets"
 
@@ -202,6 +204,7 @@ library and start building <start-building>`.
 .. _geospatial: https://crate.io/docs/stable/sql/data_types.html#geo-point
 .. _HTTP endpoint: https://crate.io/docs/crate/reference/en/latest/interfaces/http.html
 .. _HTTPie: https://httpie.org/
+.. _install Crash: https://crate.io/docs/clients/crash/en/latest/getting-started.html#install
 .. _object: https://crate.io/docs/crate/reference/en/latest/general/ddl/data-types.html#object
 .. _regular SQL: https://crate.io/docs/crate/reference/en/latest/appendices/sql-compliance.html
 .. _scalar: https://crate.io/docs/stable/sql/scalar.html
