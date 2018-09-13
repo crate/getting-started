@@ -39,7 +39,7 @@ Once downloaded, expand the tarball using a tool like `7-Zip`_.
 Start the PowerShell, change into the expanded tarball folder, and start
 CrateDB, like so:
 
-.. code-block:: text
+.. code-block:: doscon
 
    PS> ./bin/crate
 

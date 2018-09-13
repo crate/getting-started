@@ -30,7 +30,7 @@ One-Step Setup
 You can install and run CrateDB on macOS with one simple command in your
 terminal application:
 
-.. code-block:: sh
+.. code-block:: console
 
    sh$ bash -c "$(curl -L try.crate.io)"
 

@@ -26,7 +26,7 @@ One-Step Setup
 If you're using one of these operating systems, our one-step installer will
 automatically configure your system and install the correct package for you:
 
-.. code-block:: sh
+.. code-block:: console
 
    sh$ bash -c "$(curl -L install.crate.io)"
 
