@@ -22,6 +22,8 @@ Pick your library, and start building!
 +-----------+-------------+-------------------------------+------------------+
 | PHP       | Crate.io    | `CrateDB PDO`_                | `DBAL`_          |
 +-----------+-------------+-------------------------------+------------------+
+| C# (.NET) | Crate.io    | `Npgsql`_                     |                  |
++-----------+-------------+-------------------------------+------------------+
 | Erlang    | Crate.io    | `craterl`_ (alpha)            |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Ruby      | Community   | `crate_ruby`_                 | `ActiveRecord`_  |
@@ -30,8 +32,6 @@ Pick your library, and start building!
 +-----------+-------------+-------------------------------+------------------+
 | Node.js   | Community   | `crate-connect`_, `cratejs`_, | `Loopback`_      |
 |           |             | `node-crate`_                 |                  |
-+-----------+-------------+-------------------------------+------------------+
-| C# (.NET) | Community   | `Npgsql`_                     |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Go        | Community   | `go-crate`_                   |                  |
 +-----------+-------------+-------------------------------+------------------+
@@ -57,6 +57,6 @@ If you would like to see something added to this page, please `get in touch`_.
 .. _go-crate: https://github.com/herenow/go-crate
 .. _Loopback: https://github.com/lovelysystems/loopback-connector-crateio
 .. _node-crate: https://www.npmjs.com/package/node-crate
-.. _Npgsql: https://www.nuget.org/packages/Npgsql.CrateDB
+.. _Npgsql: https://crate.io/docs/clients/npgsql/en/latest/
 .. _Play: https://github.com/lovelysystems/loopback-connector-crateio
 .. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
