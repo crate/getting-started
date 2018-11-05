@@ -38,7 +38,6 @@ Pick your library, and start building!
 | Perl      | Community   | `DBD::Crate`_                 |                  |
 +-----------+-------------+-------------------------------+------------------+
 
-
 If you would like to see something added to this page, please `get in touch`_.
 
 .. _ActiveRecord: https://rubygems.org/gems/activerecord-crate-adapter
