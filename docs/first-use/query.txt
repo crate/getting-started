@@ -185,11 +185,13 @@ Third-Party Client Tools
 ------------------------
 
 The admin UI and Crash are the two client tools that ship with CrateDB. But
-those are not the only client tools you can use with CrateDB.
+those are not the only client tools you can use with CrateDB. Because CrateDB
+uses the PostgreSQL wire protocol, many PostgreSQL compatible client tools work
+with CrateDB.
 
-Because CrateDB uses the PostgreSQL wire protocol, most PostgreSQL compatible
-client tools should work with CrateDB. Check out the `clients category`_ on the
-blog for highlighted client tools.
+.. SEEALSO::
+
+    The `client tools`_ category on our blog.
 
 Next Steps
 ==========
@@ -198,7 +200,7 @@ Now you know how to query CrateDB manually, it's time to :ref:`find a client
 library and start building <start-building>`.
 
 .. _aggregation: https://crate.io/docs/stable/sql/aggregation.html
-.. _clients category: https://crate.io/a/category/clients/
+.. _client tools: https://crate.io/a/category/client-tools/
 .. _Crash: https://crate.io/docs/clients/crash/en/latest/
 .. _fulltext search: https://crate.io/docs/crate/reference/en/latest/general/dql/fulltext.html
 .. _geospatial: https://crate.io/docs/stable/sql/data_types.html#geo-point
