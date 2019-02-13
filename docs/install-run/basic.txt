@@ -73,6 +73,10 @@ address.
 
    Consult the `CrateDB reference documentation`_ for help using this command.
 
+.. NOTE::
+
+   CrateDB performs a number of `bootstrap checks`_ on startup.
+
 Next Steps
 ==========
 
@@ -81,6 +85,7 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 
 .. _also available: https://cdn.crate.io/downloads/releases/
 .. _An introductory tutorial: https://crate.io/docs/crate/guide/tutorials/hello.html
+.. _bootstrap checks: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
 .. _crash: https://crate.io/docs/crate/guide/getting_started/connect/crash.html
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
 .. _CrateDB reference documentation: https://crate.io/docs/crate/reference/en/latest/run.html

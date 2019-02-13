@@ -43,6 +43,10 @@ CrateDB, like so:
 
    PS> ./bin/crate
 
+.. NOTE::
+
+   CrateDB performs a number of `bootstrap checks`_ on startup.
+
 Next Steps
 ==========
 
@@ -50,6 +54,7 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
 .. _7-Zip: http://www.7-zip.org/
+.. _bootstrap checks: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
 .. _change into the expanded tarball folder: https://docs.microsoft.com/en-us/powershell/scripting/getting-started/cookbooks/managing-current-location?view=powershell-6
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
