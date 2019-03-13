@@ -12,8 +12,8 @@ This page shows you how get up and running directly from the tarball on any
 
 .. NOTE::
 
-   CrateDB requires `Java 8`_, preferably update 20 or later. We recommend
-   using `Oracle's Java`_ on macOS and OpenJDK_ on Linux Systems.
+   CrateDB requires `Java 11`_. We recommend using `Oracle's Java`_ on macOS
+   and OpenJDK_ on Linux Systems.
 
 .. SEEALSO::
 
@@ -92,8 +92,8 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
 .. _How to run CrateDB in a multi node setup: https://crate.io/docs/crate/guide/getting_started/scale/multi_node_setup.html
 .. _install section: https://crate.io/docs/crate/guide/getting_started/install/index.html
-.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-.. _OpenJDK: http://openjdk.java.net/projects/jdk8/
+.. _Java 11: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+.. _OpenJDK: http://openjdk.java.net/projects/jdk/11/
 .. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
 .. _release notes: https://crate.io/docs/crate/reference/en/latest/release_notes/index.html
 .. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html

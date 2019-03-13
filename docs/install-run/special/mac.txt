@@ -34,8 +34,8 @@ terminal application:
 
    sh$ bash -c "$(curl -L try.crate.io)"
 
-If you don't already have `Java 8`_ installed, the above command will try to take
-care of that for you along with a few other housekeeping tasks.
+If you don't already have `Java 11`_ installed, the above command will try to
+take care of that for you along with a few other housekeeping tasks.
 
 .. NOTE::
 
@@ -48,7 +48,7 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
 .. _bootstrap checks: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
-.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+.. _Java 11: https://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
