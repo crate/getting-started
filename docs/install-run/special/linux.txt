@@ -23,19 +23,13 @@ Linux`_.
 One-Step Setup
 ==============
 
-If you're using one of these operating systems, our one-step installer will
-automatically configure your system and install the correct package for you:
+You can download and run CrateDB on one of these operating systems with one
+simple command in your terminal application:
 
 .. code-block:: console
 
-   sh$ bash -c "$(curl -L install.crate.io)"
+   sh$ bash -c "$(curl -L try.crate.io)"
 
-If you don't already have `Java 8`_ installed, the above command will try to take
-care of that for you along with a few other housekeeping tasks.
-
-.. NOTE::
-
-   CrateDB performs a number of `bootstrap checks`_ on startup.
 
 Next Steps
 ==========
@@ -44,7 +38,6 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
 .. _bootstrap checks: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
-.. _Java 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 .. _OpenJDK: http://openjdk.java.net/projects/jdk8/
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
