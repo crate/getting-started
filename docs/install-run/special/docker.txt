@@ -30,8 +30,10 @@ Spin up the official CrateDB Docker image, like so:
    you're ready to start using CrateDB for data that you care about, you should
    consult the `full guide to CrateDB and Docker`_.
 
-   If you encounter `bootstrap check`_ errors, consult the `section on Docker
-   resource constraints`_.
+.. TIP::
+
+   If you encounter `bootstrap check`_ failures, consult the additional
+   documentation on Docker :ref:`resource constraints`_ for help.
 
 Next Steps
 ==========
@@ -43,4 +45,4 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 .. _CrateDB Docker image: https://hub.docker.com/_/crate/
 .. _Docker: https://www.docker.com/
 .. _full guide to CrateDB and Docker: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html
-.. _section on Docker resource constraints: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html#resource-constraints
+.. _resource constraints: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html#resource-constraints
