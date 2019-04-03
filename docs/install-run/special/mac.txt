@@ -32,7 +32,7 @@ terminal application:
 
 .. code-block:: console
 
-   sh$ bash -c "$(curl -L try.crate.io)"
+   sh$ bash -c "$(curl -L https://try.crate.io/)"
 
 If you don't already have `Java 11`_ installed, the above command will try to
 take care of that for you along with a few other housekeeping tasks.

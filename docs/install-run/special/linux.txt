@@ -28,8 +28,7 @@ simple command in your terminal application:
 
 .. code-block:: console
 
-   sh$ bash -c "$(curl -L try.crate.io)"
-
+   sh$ bash -c "$(curl -L https://try.crate.io/)"
 
 Next Steps
 ==========
