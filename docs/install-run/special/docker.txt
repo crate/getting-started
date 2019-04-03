@@ -21,6 +21,10 @@ Spin up the official CrateDB Docker image, like so:
 
    sh$ docker run -p "4200:4200" crate
 
+.. TIP::
+
+   If this command aborts with an error, consult the `troubleshooting guide`_.
+
 .. CAUTION::
 
    This command will get you up and running for the first time.
@@ -30,17 +34,13 @@ Spin up the official CrateDB Docker image, like so:
    you're ready to start using CrateDB for data that you care about, you should
    consult the `full guide to CrateDB and Docker`_.
 
-.. TIP::
-
-   If you encounter `bootstrap check`_ failures, consult the additional
-   documentation on Docker :ref:`resource constraints`_ for help.
-
 Next Steps
 ==========
 
 Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
+.. _troubleshooting guide: https://crate.io/docs/crate/guide/en/latest/deployment/containers/docker.html#docker-troubleshooting
 .. _bootstrap check: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
 .. _CrateDB Docker image: https://hub.docker.com/_/crate/
 .. _Docker: https://www.docker.com/
