@@ -20,7 +20,7 @@ Linux`_.
 .. contents::
    :local:
 
-One-Step Setup
+One-step setup
 ==============
 
 You can download and run CrateDB on one of these operating systems with one
@@ -30,7 +30,7 @@ simple command in your terminal application:
 
    sh$ bash -c "$(curl -L https://try.crate.io/)"
 
-Next Steps
+Next steps
 ==========
 
 Now you have CrateDB up and running, it's time to :ref:`import some test data

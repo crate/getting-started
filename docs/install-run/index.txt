@@ -26,4 +26,3 @@ In this section, we show you how to install and run CrateDB.
 
    basic
    special/index
-

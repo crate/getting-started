@@ -45,7 +45,7 @@ You should see something like this:
 
 .. _import:
 
-Import Some Tweets
+Import some tweets
 ==================
 
 In the admin UI, select the *Help* tab (question mark icon) from the left-hand
@@ -72,7 +72,7 @@ You should see something like this:
 
 .. image:: admin-ui-tweets.png
 
-Next Steps
+Next steps
 ==========
 
 Now you have some test data, :ref:`learn how to query it <query-test-data>`.
