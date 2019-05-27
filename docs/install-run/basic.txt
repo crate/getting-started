@@ -77,7 +77,7 @@ address.
 
    CrateDB performs a number of `bootstrap checks`_ on startup.
 
-Next Steps
+Next steps
 ==========
 
 Now you have CrateDB up and running, it's time to :ref:`import some test data

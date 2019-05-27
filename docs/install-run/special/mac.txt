@@ -24,7 +24,7 @@ Because CrateDB is a Java application, it runs effortlessly on macOS.
 .. contents::
    :local:
 
-One-Step Setup
+One-step setup
 ==============
 
 You can install and run CrateDB on macOS with one simple command in your
@@ -41,7 +41,7 @@ take care of that for you along with a few other housekeeping tasks.
 
    CrateDB performs a number of `bootstrap checks`_ on startup.
 
-Next Steps
+Next steps
 ==========
 
 Now you have CrateDB up and running, it's time to :ref:`import some test data
