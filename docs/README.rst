@@ -2,7 +2,7 @@
 Documentation README
 ====================
 
-Top-Level Structure
+Top-Level structure
 ===================
 
 The documentation is structured as follows:

@@ -1,7 +1,7 @@
 .. _import-test-data:
 
 ================
-Import Test Data
+Import test data
 ================
 
 Before you can really experiment with CrateDB, you need some data to play
@@ -14,7 +14,7 @@ In this document, we show you how to import test data.
    This document assumes that you have CrateDB :ref:`installed and running
    <install-run>`.
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. contents::
    :local:

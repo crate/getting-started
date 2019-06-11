@@ -1,5 +1,5 @@
 ====================
-Specialized Installs
+Specialized installs
 ====================
 
 CrateDB is easy to :ref:`get up and running directly from the tarball
@@ -14,7 +14,7 @@ set up with CrateDB.
    For putting CrateDB into production, you can learn more about
    `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. toctree::
    :maxdepth: 1

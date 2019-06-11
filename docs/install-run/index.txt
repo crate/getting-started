@@ -1,7 +1,7 @@
 .. _install-run:
 
 ===============
-Install and Run
+Install and run
 ===============
 
 In this section, we show you how to install and run CrateDB.
@@ -18,7 +18,7 @@ In this section, we show you how to install and run CrateDB.
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
 .. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. toctree::
    :maxdepth: 2

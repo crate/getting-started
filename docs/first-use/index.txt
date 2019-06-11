@@ -1,12 +1,12 @@
 .. _first-use:
 
 =========
-First Use
+First use
 =========
 
 In this section, we show you how to import and query some test data.
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. toctree::
    :maxdepth: 1

@@ -7,7 +7,7 @@ Run CrateDB on Docker
 CrateDB and Docker_ are a great match thanks to CrateDB's shared-nothing,
 horizontally scalable architecture that lends itself well to containerization.
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. contents::
    :local:

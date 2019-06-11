@@ -1,7 +1,7 @@
 .. _start-building:
 
 ==============
-Start Building
+Start building
 ==============
 
 CrateDB is happy at the heart of any application stack, with a number of

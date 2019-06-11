@@ -3,7 +3,7 @@
 .. _basic-install:
 
 ==================================
-Basic CrateDB Tarball Installation
+Basic CrateDB tarball installation
 ==================================
 
 
@@ -27,7 +27,7 @@ This page shows you how get up and running directly from the tarball on any
    For putting CrateDB into production, you can learn more about
    `deploying`_ or `scaling`_ CrateDB in the `CrateDB Guide`_.
 
-.. rubric:: Table of Contents
+.. rubric:: Table of contents
 
 .. contents::
    :local:
