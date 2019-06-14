@@ -24,23 +24,26 @@ Pick your library, and start building!
 +-----------+-------------+-------------------------------+------------------+
 | C# (.NET) | Crate.io    | `Npgsql`_                     |                  |
 +-----------+-------------+-------------------------------+------------------+
-| Erlang    | Crate.io    | `craterl`_ (alpha)            |                  |
+| Python    | Community   | `asyncpg`_                    |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Ruby      | Community   | `crate_ruby`_                 | `ActiveRecord`_  |
 +-----------+-------------+-------------------------------+------------------+
-| Scala     | Community   | `crate-scala`_                | `Play`_          |
+| Scala     | Community   | `crate-scala`_                |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Node.js   | Community   | `crate-connect`_, `cratejs`_, | `Loopback`_      |
 |           |             | `node-crate`_                 |                  |
 +-----------+-------------+-------------------------------+------------------+
-| Go        | Community   | `go-crate`_                   |                  |
+| Go        | Community   | `pgx`_                        |                  |
 +-----------+-------------+-------------------------------+------------------+
 | Perl      | Community   | `DBD::Crate`_                 |                  |
++-----------+-------------+-------------------------------+------------------+
+| Erlang    | None (EOL)  | `craterl`_                    |                  |
 +-----------+-------------+-------------------------------+------------------+
 
 If you would like to see something added to this page, please `get in touch`_.
 
 .. _ActiveRecord: https://rubygems.org/gems/activerecord-crate-adapter
+.. _asyncpg: https://github.com/MagicStack/asyncpg
 .. _crate_ruby: https://rubygems.org/gems/crate_ruby
 .. _crate-connect: https://www.npmjs.com/package/crate-connect
 .. _crate-jdbc: https://crate.io/docs/clients/jdbc/en/latest/
@@ -53,9 +56,8 @@ If you would like to see something added to this page, please `get in touch`_.
 .. _DBAL: https://crate.io/docs/clients/dbal/en/latest/
 .. _DBD::Crate: https://github.com/mamod/DBD-Crate
 .. _get in touch: https://crate.io/contact/
-.. _go-crate: https://github.com/herenow/go-crate
 .. _Loopback: https://github.com/lovelysystems/loopback-connector-crateio
 .. _node-crate: https://www.npmjs.com/package/node-crate
 .. _Npgsql: https://crate.io/docs/clients/npgsql/en/latest/
-.. _Play: https://github.com/lovelysystems/loopback-connector-crateio
+.. _pgx: https://github.com/jackc/pgx
 .. _SQLAlchemy: https://crate.io/docs/clients/python/en/latest/sqlalchemy.html
