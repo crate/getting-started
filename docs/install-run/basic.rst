@@ -56,7 +56,7 @@ Once downloaded, unpack the tarball and change into the resulting directory:
 Run
 ===
 
-There is no need to configure or build anything.
+You do not have to configure or build anything.
 
 Once unpacked, CrateDB can be started in the foreground like this:
 
@@ -94,8 +94,8 @@ Now you have CrateDB up and running, it's time to :ref:`import some test data
 .. _install section: https://crate.io/docs/crate/guide/getting_started/install/index.html
 .. _Java 11: https://www.oracle.com/technetwork/java/javase/downloads/index.html
 .. _OpenJDK: http://openjdk.java.net/projects/jdk/11/
-.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
-.. _release notes: https://crate.io/docs/crate/reference/en/latest/release_notes/index.html
+.. _Oracle's Java: https://www.java.com/en/download/help/mac_install.xml
+.. _release notes: https://crate.io/docs/crate/reference/en/latest/appendices/release-notes/index.html
 .. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
 .. _the latest CrateDB release: https://crate.io/download/
 .. _Unix-like system: https://en.wikipedia.org/wiki/Unix-like
