@@ -40,18 +40,17 @@ TOP_DIR         := ..
 # `DOCS_DIR` is the path to `docs` from `TOP_DIR`
 DOCS_DIR        := docs
 ENV_DIR         := .env
-ENV_BIN         := $(ENV_DIR)/bin
-ACTIVATE        := $(ENV_BIN)/activate
+ACTIVATE        := $(ENV_DIR)/bin/activate
 PYTHON          := python3.7
-PIP             := $(ENV_BIN)/pip3.7
-SPHINXBUILD     := $(ENV_BIN)/sphinx-build
-SPHINXAUTOBUILD := $(ENV_BIN)/sphinx-autobuild
-AUTOBUILD_OPTS  := --ignore '.*' --ignore '*.lint'
+PIP             := $(PYTHON) -m pip
+SPHINXBUILD     := sphinx-build
+SPHINXAUTOBUILD := sphinx-autobuild
+AUTOBUILD_OPTS  := --re-ignore '^(?!.+\.rst$$)'
 BUILD_DIR       := .build
 SPHINX_ARGS     := . $(BUILD_DIR)
 SPHINX_OPTS     := -W -n
+STYLE_JSON      := style.json
 STYLE_REPO      := https://github.com/crate/crate-docs-style.git
-STYLE_VERSION   := 0.1.6
 STYLE_DIR       := .style
 STYLE_DIR_ROOT  := $(DOCS_DIR)/$(STYLE_DIR)
 STYLE_RULES     := $(STYLE_DIR_ROOT)/utils/rules.mk
@@ -78,12 +77,13 @@ help:
 	@ echo
 	@ printf '\033[36m  reset  \033[00m Reset the source\n'
 
-$(SPHINXBUILD) $(SPHINXAUTOBUILD):
+$(ACTIVATE):
 	$(PYTHON) -m venv $(ENV_DIR)
-	$(PIP) install --upgrade pip
+	. $(ACTIVATE) && \
+	    $(PIP) install --upgrade pip
 	@ # Change to `TOP_DIR` to mimic how Read the Docs does it
-	cd $(TOP_DIR) && \
-	    $(DOCS_DIR)/$(PIP) install -r $(DOCS_DIR)/requirements.txt
+	. $(ACTIVATE) && cd $(TOP_DIR) && \
+	    $(PIP) install -r $(DOCS_DIR)/requirements.txt
 
 ifeq ($(UNAME),Linux)
 $(VALE):
@@ -99,27 +99,30 @@ $(VALE):
 	cd $(TOOLS_DIR) && tar -xzf $(VALE_MACOS)
 endif
 
+# Parse JSON file for version
+STYLE_VERSION = $(shell cat $(STYLE_JSON) | \
+    python -c 'import json, sys; print(json.load(sys.stdin)["message"])')
+
 ifeq ($(STYLE_VERSION),)
-# The documentation for the crate-docs-style project fakes an install of its
-# own code so that it can test itself
-$(STYLE_DIR):
-	@ if test ! -d ../utils; then\
-	    printf '\033[31mYou must set `STYLE_VERSION` to lint the '; \
-	    printf 'documentation.\033[00m\n'; \
-	    exit 1; \
-	fi
-	mkdir -p $@
-	cp -R ../utils $@/utils
-else
+$(error No version specified in $(STYLE_JSON))
+endif
+
+ifeq ($(wildcard $(TOP_DIR)/utils/rules.mk),)
 # The documentation for all other projects must install a versioned copy of the
 # crate-docs-style project
 $(STYLE_DIR):
 	git clone --depth=1 -c advice.detachedHead=false \
 	    --branch=$(STYLE_VERSION) $(STYLE_REPO) $(STYLE_DIR)
+else
+# The documentation for the crate-docs-style project fakes an install of its
+# own code so that it can test itself
+$(STYLE_DIR):
+	mkdir -p $@
+	cp -R $(TOP_DIR)/utils $@/utils
 endif
 
 .PHONY: autobuild
-autobuild: $(SPHINXAUTOBUILD)
+autobuild: $(ACTIVATE)
 	. $(ACTIVATE) && \
 	    $(SPHINXAUTOBUILD) $(SPHINX_ARGS) $(SPHINX_OPTS) $(AUTOBUILD_OPTS) $(O)
 
@@ -134,7 +137,7 @@ lint-watch: $(STYLE_DIR)
 	done || true
 
 .PHONY: dev
-dev: $(SPHINXAUTOBUILD) lint
+dev: lint
 	@ if test ! -x "`which $(FSWATCH)`"; then \
 	    printf '\033[31mYou must have fswatch installed.\033[00m\n'; \
 	    exit 1; \
@@ -149,7 +152,7 @@ check: html linkcheck lint
 Makefile:
 
 # Route unknown targets to `sphinx-build`
-%: $(SPHINXBUILD)
+%: $(ACTIVATE)
 	. $(ACTIVATE) && \
 	    $(SPHINXBUILD) -M $@ $(SPHINX_ARGS) $(SPHINX_OPTS) $(O)
 
