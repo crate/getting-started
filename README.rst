@@ -2,7 +2,7 @@
 Getting Started With CrateDB
 ============================
 
-|style| |travis| |dortds|
+|style| |travis| |rtd|
 
 Documentation for getting started with `CrateDB`_.
 
