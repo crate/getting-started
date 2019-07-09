@@ -5,35 +5,28 @@ Developer Guide
 Prerequisites
 =============
 
-Python 3 is required.
+Python 3.7 is required.
 
-Setup
-=====
+Documentation
+=============
 
-To install the project dependencies, run::
+The docs are written with ReStructuredText_ and processed with Sphinx_.
 
-    $ ./bootstrap.sh
+Change into the ``docs`` directory:
 
-Writing Documentation
-=====================
+.. code-block:: console
 
-The docs live under the ``docs`` directory.
+    $ cd docs
 
-The docs are written written with ReStructuredText_ and processed with Sphinx_.
+To see a list of options, run:
 
-Build the docs by running::
+    $ make help
 
-    $ bin/sphinx
+If you want live rebuilding of the docs, you must install `fswatch`_.
 
-The output can then be found in the ``out/html`` directory.
-
-If you would like to live-reload the docs as you edit them, you can run::
-
-    $ bin/sphinx dev
-
-The docs are automatically built from Git by `Read the Docs`_ and there is
-nothing special you need to do to get the live docs to update.
+The live docs are automatically built from Git by `Read the Docs`_.
 
 .. _Read the Docs: http://readthedocs.org
 .. _ReStructuredText: http://docutils.sourceforge.net/rst.html
 .. _Sphinx: http://sphinx-doc.org/
+.. _fswatch: https://github.com/emcrisostomo/fswatch
