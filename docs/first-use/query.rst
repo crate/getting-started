@@ -199,16 +199,16 @@ Next steps
 Now you know how to query CrateDB manually, it's time to :ref:`find a client
 library and start building <start-building>`.
 
-.. _aggregation: https://crate.io/docs/stable/sql/aggregation.html
-.. _client tools: https://crate.io/a/category/client-tools/
+.. _aggregation: https://crate.io/docs/crate/reference/en/latest/general/builtins/aggregation.html
+.. _client tools: https://crate.io/a/category/integrations/
 .. _Crash: https://crate.io/docs/clients/crash/en/latest/
 .. _fulltext search: https://crate.io/docs/crate/reference/en/latest/general/dql/fulltext.html
-.. _geospatial: https://crate.io/docs/stable/sql/data_types.html#geo-point
+.. _geospatial: https://crate.io/docs/crate/reference/en/latest/general/ddl/data-types.html#geo-point
 .. _HTTP endpoint: https://crate.io/docs/crate/reference/en/latest/interfaces/http.html
 .. _HTTPie: https://httpie.org/
-.. _install Crash: https://crate.io/docs/clients/crash/en/latest/getting-started.html#install
+.. _install Crash: https://crate.io/docs/clients/crash/en/latest/getting-started.html
 .. _object: https://crate.io/docs/crate/reference/en/latest/general/ddl/data-types.html#object
-.. _regular SQL: https://crate.io/docs/crate/reference/en/latest/appendices/sql-compliance.html
-.. _scalar: https://crate.io/docs/stable/sql/scalar.html
+.. _regular SQL: https://crate.io/docs/crate/reference/en/latest/appendices/compatibility.html
+.. _scalar: https://crate.io/docs/crate/reference/en/latest/general/builtins/scalar.html
 .. _schema: https://crate.io/docs/crate/reference/en/latest/general/ddl/create-table.html#schemas
 .. _the CrateDB query reference: https://crate.io/docs/crate/reference/en/latest/general/dql/index.html

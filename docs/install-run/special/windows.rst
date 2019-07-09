@@ -53,14 +53,14 @@ Next steps
 Now you have CrateDB up and running, it's time to :ref:`import some test data
 <import-test-data>`.
 
-.. _7-Zip: http://www.7-zip.org/
+.. _7-Zip: https://www.7-zip.org/
 .. _bootstrap checks: https://crate.io/docs/crate/guide/en/latest/admin/bootstrap-checks.html
-.. _change into the expanded tarball folder: https://docs.microsoft.com/en-us/powershell/scripting/getting-started/cookbooks/managing-current-location?view=powershell-6
+.. _change into the expanded tarball folder: https://docs.microsoft.com/en-us/powershell/scripting/samples/managing-current-location?view=powershell-6
 .. _CrateDB Guide: https://crate.io/docs/crate/guide/en/latest/
 .. _deploying: https://crate.io/docs/crate/guide/en/latest/deployment/index.html
 .. _Java 11: https://www.oracle.com/technetwork/java/javase/downloads/index.html
-.. _Oracle's Java: http://www.java.com/en/download/help/mac_install.xml
+.. _Oracle's Java: https://www.java.com/en/download/help/windows_manual_download.xml
 .. _PowerShell: https://docs.microsoft.com/en-us/powershell/
 .. _scaling: https://crate.io/docs/crate/guide/en/latest/scaling/index.html
-.. _Start PowerShell: https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell?view=powershell-6
+.. _Start PowerShell: https://docs.microsoft.com/en-us/powershell/scripting/getting-started/starting-windows-powershell?view=powershell-6
 .. _the latest CrateDB release: https://crate.io/download/

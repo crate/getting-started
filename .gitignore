@@ -1,4 +1,5 @@
-_out
+.build
 .DS_Store
-.venv/
-out/
+.env
+.style
+*.lint
