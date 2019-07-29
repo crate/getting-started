@@ -1,7 +1,7 @@
 .. _query-test-data:
 
 ======================
-The Basics of querying
+The basics of querying
 ======================
 
 CrateDB uses `regular SQL`_ for queries.
